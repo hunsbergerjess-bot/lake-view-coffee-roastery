@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriptions | Lake View Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">LAKE VIEW COFFEE</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="subscription.html">Subscription</a>
+            <a href="menu.html">Menu</a>
+            <a href="story.html">Our Story</a>
+            <a href="visit.html">Visit</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="section-title">Coffee Subscriptions</h1>
+        <p class="section-title">Bring thoughtfully sourced, freshly roasted coffee to your workplace.</p>
+
+        <div class="products">
+            <div class="plan">
+                <h2>Executive</h2>
+                <p>Premium coffee for smaller offices and leadership spaces.</p>
+                <p class="price">Custom pricing</p>
+            </div>
+            <div class="plan">
+                <h2>Office</h2>
+                <p>A dependable coffee supply for your everyday workplace.</p>
+                <p class="price">Custom pricing</p>
+            </div>
+            <div class="plan">
+                <h2>Signature</h2>
+                <p>A curated selection for businesses seeking a more elevated experience.</p>
+                <p class="price">Custom pricing</p>
+            </div>
+        </div>
+
+        <!-- Advanced HTML element: comparison table -->
+        <h2>Compare Subscription Options</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Executive</th>
+                <th>Office</th>
+                <th>Signature</th>
+            </tr>
+            <tr>
+                <td>Freshly roasted beans</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Curated selections</td>
+                <td>Yes</td>
+                <td>Optional</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Custom delivery schedule</td>
+                <td>Available</td>
+                <td>Available</td>
+                <td>Available</td>
+            </tr>
+        </table>
+
+        <!-- Advanced HTML element: subscription inquiry form -->
+        <h2>Request Subscription Information</h2>
+        <form action="mailto:hello@example.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="plan">Subscription interest</label>
+            <select id="plan" name="plan">
+                <option>Executive</option>
+                <option>Office</option>
+                <option>Signature</option>
+                <option>Not sure yet</option>
+            </select>
+
+            <label for="message">Tell us about your business</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button class="button" type="submit">Submit Inquiry</button>
+        </form>
+
+        <!-- Advanced HTML element: expandable details -->
+        <details>
+            <summary>How do subscriptions work?</summary>
+            <p>Subscription details, delivery frequency, and coffee selections can be discussed when requesting a quote.</p>
+        </details>
+    </main>
+
+    <footer>
+        <p>Lake View Coffee Roastery</p>
+        <a href="index.html">Home</a> |
+        <a href="citations.html">Image citations</a>
+    </footer>
+</body>
+</html>
